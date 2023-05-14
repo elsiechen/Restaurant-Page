@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Sweet';
+    src: url('./sweets.woff') format('woff'),
+         url('./sweets.woff2') format('woff2');
+    
+}
+
 .head {
     color: red;
+    font-family: 'Sweet', sans-serif;
 }
