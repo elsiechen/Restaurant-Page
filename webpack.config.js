@@ -6,6 +6,7 @@ module.exports = {
         index: './src/index.js',
         loadPage: './src/page-load.js',
     },
+    // source map
     devtool: 'inline-source-map',
     plugins: [
         new HtmlWebpackPlugin({
@@ -26,6 +27,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         clean: true,
     },
+    // avoid code duplication of multiple entry point per page
     optimization: {
         runtimeChunk: 'single',
     },
