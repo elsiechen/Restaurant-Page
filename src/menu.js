@@ -61,11 +61,10 @@ const menuTab = () => {
           img: Lemon
         },
     ];
-    console.log(items);
+
     for(let i = 0; i < items.length; i++){
-        console.log(items[i].name);
-        console.log(items[i].price);
-        console.log(items[i].img);
+        // itemContainer > img + 
+        // (right > (top > (name + price)) + description )
         const itemContainer = document.createElement('div');
         itemContainer.classList.add('item');
 
@@ -74,16 +73,25 @@ const menuTab = () => {
         img.classList.add('itemImg');
         itemContainer.appendChild(img);
 
+        const right = document.createElement('div');
+        right.classList.add('right');
+
         const name = document.createElement('div');
         name.innerHTML = items[i].name;
         name.classList.add('itemName');
-        itemContainer.appendChild(name);
+        right.appendChild(name);
+
+        const price = document.createElement('div');
+        price.innerHTML = `$ ${items[i].price}`;
+        price.classList.add('itemPrice');
+        right.appendChild(price);
 
         const description = document.createElement('div');
         description.innerHTML = items[i].description;
         description.classList.add('itemDescription');
-        itemContainer.appendChild(description);
+        right.appendChild(description);
 
+        itemContainer.appendChild(right);
         menu.appendChild(itemContainer);
     }
       

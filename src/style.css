@@ -65,6 +65,7 @@
     background-color: rgba(40, 40, 40, 0.6);
     margin: 4rem;
     flex: auto;
+    border-radius: 10px;
 }
 
 .footer {
@@ -119,7 +120,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
-    gap: 2px;
+    gap: 1rem;
+    color: white;
+    padding: 1rem;
 }
 
 .item {
@@ -127,20 +130,39 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     border: none;
     background:  rgba(40, 40, 40, 0.8);
     cursor: pointer;
+    padding: 1rem;
+    
 }
 
 .itemImg {
+    width: 10rem;
+    height: 10rem;
+}
 
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .itemName {
+    font-size: 1.5rem;
+    font-family: 'Sweet', sans-serif;
+    /* Make text gradient */
+    background: linear-gradient(-90deg, #FAF4E1, #FABC41, #EC9454, #C72767);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 
+.itemPrice {
+    margin: 5px;
 }
 
 .itemDescription {
-    
+
 }
