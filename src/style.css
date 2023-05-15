@@ -21,18 +21,32 @@
 .headContainer {
     height: 25vh;
     width: 100%;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.8);
     
 }
 
-.logoContainer {
+.logoContainer, .navContainer {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .shopName {
     color: white;
     font-family: 'Sweet', sans-serif;
-    font-size: larger;
+    font-size: 5rem;
+    margin: 2rem 0 1rem 0;
 }
 
+.navContainer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.navLink:hover {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
