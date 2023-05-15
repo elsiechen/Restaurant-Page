@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 @font-face {
@@ -19,7 +21,7 @@
 }
 
 .headContainer {
-    height: 25vh;
+    height: 23vh;
     width: 100%;
     background-color: rgba(40, 40, 40, 0.9);
 }
@@ -34,15 +36,15 @@
     color: white;
     font-family: 'Sweet', sans-serif;
     font-size: 4rem;
-    margin: 2rem 0 1rem 0;
+    margin: 3rem 0 1rem 1rem;
 }
 
 .navContainer {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
     color: white;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-bottom: 1rem;
 }
 
 .navLink:hover {
@@ -50,7 +52,7 @@
     cursor: pointer;
 }
 
-.container {
+.container, .homeContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,10 +60,10 @@
 }
 
 .contentContainer {
-    height: 40vw;
+    /* height: 40vw; */
     width: 50vw;
     background-color: rgba(40, 40, 40, 0.6);
-    margin: 5rem;
+    margin: 4rem;
     flex: auto;
 }
 
@@ -71,7 +73,6 @@
     background-color: rgba(40, 40, 40, 0.6);
     color: white;
     font-size: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     flex-wrap: wrap;
     gap: 1rem;
 }
@@ -85,4 +86,30 @@
 .github:hover {
     cursor: pointer;
     opacity: 1;
+}
+
+/* homeTab */
+.homeContainer {
+    padding: 3rem 5rem 2rem 5rem;
+    background-color: rgba(40, 40, 40, 0.8);
+}
+
+.slogan1 {
+    /* Make text gradient */
+    background: linear-gradient(-90deg, #FAF4E1, #FABC41, #EC9454, #C72767);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.slogan2 {
+    font-size: 1rem;
+    color: white;
+}
+
+.taiwan {
+    width: 40rem;
+    height: 40rem;
 }
