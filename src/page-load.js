@@ -1,5 +1,5 @@
 import './style.css';
-import Logo from './logo.png';
+import Logo from './logo.svg';
 import { doc } from 'prettier';
 
 export default function pageLoad(){
@@ -14,11 +14,13 @@ export default function pageLoad(){
 
     headContainer.classList.add('headContainer');
     
-
-    const logo = document.createElement('img');
-    logo.setAttribute('src', Logo);
-    logo.setAttribute('width', '20%');
-    logo.setAttribute('height', '50%');
+    console.log(Logo);
+    var logo = document.createElement('object');
+    logo.setAttribute('type', 'image/svg+xml');
+    logo.setAttribute('data', Logo);
+    logo.setAttribute('width', '120rem');
+    logo.setAttribute('height', '120rem');
+    logo.classList.add('logo');
     logoContainer.appendChild(logo);
 
     const shopName = document.createElement('div');
