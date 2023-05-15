@@ -3,7 +3,7 @@ import Logo from './logo.svg';
 import Github from './github.png';
 import { doc } from 'prettier';
 
-export default function pageLoad(){
+const pageLoad = () => {
     const body = document.querySelector('body');
     const background = document.createElement('div');
     const container = document.createElement('div');
@@ -80,4 +80,8 @@ export default function pageLoad(){
     container.appendChild(footer);
 
     body.appendChild(container);
+
+    return { home, menu, contact, contentContainer };
 };
+
+export default pageLoad;
