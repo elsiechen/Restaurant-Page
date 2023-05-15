@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: 'Sweet';
-    src: url('./sweets.woff') format('woff'),
-         url('./sweets.woff2') format('woff2');
+    src: url('./font/sweets.woff') format('woff'),
+         url('./font/sweets.woff2') format('woff2');
     
 }
 .backgroundImg {
-    background-image: url("hotpot.png");
+    background-image: url("./img/hotpot.png");
     width: 100vw;
     height: 100vh;
     position: fixed;

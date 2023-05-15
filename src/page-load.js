@@ -1,6 +1,6 @@
 import './style.css';
-import Logo from './logo.svg';
-import Github from './github.png';
+import Logo from './img/logo.svg';
+import Github from './img/github.png';
 import { doc } from 'prettier';
 
 const pageLoad = () => {
