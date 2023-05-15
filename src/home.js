@@ -1,4 +1,4 @@
-import Taiwan from './taiwan.png'
+import Taiwan from './taiwan.png';
 
 const homeTab = () => {
     const home = document.createElement('div');
