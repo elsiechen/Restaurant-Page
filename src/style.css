@@ -21,11 +21,10 @@
 .headContainer {
     height: 25vh;
     width: 100%;
-    background-color: rgba(60, 60, 60, 0.8);
-    
+    background-color: rgba(40, 40, 40, 0.9);
 }
 
-.logoContainer, .navContainer {
+.logoContainer, .navContainer, .footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,4 +48,41 @@
 .navLink:hover {
     border-bottom: 2px solid white;
     cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentContainer {
+    height: 40vw;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, 0.6);
+    margin: 5rem;
+    flex: auto;
+}
+
+.footer {
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(40, 40, 40, 0.6);
+    color: white;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.github {
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.6;
+}
+
+.github:hover {
+    cursor: pointer;
+    opacity: 1;
 }
