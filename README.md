@@ -15,26 +15,20 @@ Check out the [**live**]() demo.
 - HTML
 - CSS
 - JavaScript
-- npm
 - Webpack
 - ES6 Modules
+- Prettier
 
 ## Features
-- Create simple AI player using JavaScript
-- AI and two players mode to choose
-- Different hover images on cell for player differentiation
+- Use webpack to organize and bundle modules including dependencies, image and font assets into optimized files  
+that can be efficiently loaded by web browsers.
+- Use ES6 Modules to organize code into separate files to make it easier to maintain and reuse code within project.
+- Use Prettier package to format the output index.html file that webpack left all tags in one line which lose code readability.
 
 
 ## Credits
-- The Odin Project: [Sign-Up Form](https://www.theodinproject.com/lessons/node-path-javascript-tic-tac-toe)
-hot pot picture:
-vogue taiwan
-https://www.vogue.com.tw/lifestyle/article/%E5%8F%B0%E4%B8%AD-%E9%BA%BB%E8%BE%A345
+- The Odin Project:[Project: Restaurant Page](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page)
 
-taiwan picture:
-pngtree
-https://pngtree.com/freepng/hand-painted-taiwanese-brain--micro-world-travel-box_4104075.html
+- Hot pot picture:[vogue taiwan](https://www.vogue.com.tw/lifestyle/article/%E5%8F%B0%E4%B8%AD-%E9%BA%BB%E8%BE%A345)
 
-menu picture:
-flaticon
-https://www.flaticon.com/search?word=bubble+tea&k=1684175098163&log-in=google
+- Suitcase picture:[pngtree](https://pngtree.com/freepng/hand-painted-taiwanese-brain--micro-world-travel-box_4104075.html)

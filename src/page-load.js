@@ -66,7 +66,7 @@ const pageLoad = () => {
     footer.appendChild(footerContent);
 
     const link = document.createElement('a');
-    link.setAttribute('href', 'https://github.com/elsiechen');
+    link.setAttribute('href', 'https://github.com/elsiechen/Restaurant-Page');
 
     const github = document.createElement('img');
     github.setAttribute('src', Github);
