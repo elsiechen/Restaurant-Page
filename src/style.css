@@ -60,7 +60,6 @@
 }
 
 .contentContainer {
-    /* height: 40vw; */
     width: 50vw;
     background-color: rgba(40, 40, 40, 0.6);
     margin: 4rem;
@@ -162,17 +161,40 @@
     margin: 5px;
 }
 
-.itemDescription {
-
+/* contactTab */
+.contactContainer, .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/* contactTab */
-.contactContainer {
+.infoContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    color: white;
+    font-size: 0.6rem;
+    padding: 1rem;
+}
 
+.container {
+    text-align: center;
+}
+
+.infoTitle {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    /* Make text gradient */
+    background: linear-gradient(-90deg, #FAF4E1, #FABC41, #EC9454, #C72767);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .map {
     width: 600;
     height: 450;
     border: 0;
+    margin-bottom: 2rem;
 }

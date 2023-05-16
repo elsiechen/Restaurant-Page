@@ -88,7 +88,6 @@ const menuTab = () => {
 
         const description = document.createElement('div');
         description.innerHTML = items[i].description;
-        description.classList.add('itemDescription');
         right.appendChild(description);
 
         itemContainer.appendChild(right);
