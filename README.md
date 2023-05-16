@@ -9,7 +9,7 @@ This is a simple restaurant homepage! Contents are dynamically generated entirel
 - Features
 - Credits
 ## Demo
-Check out the [**live**]() demo.
+Check out the [**live**](https://elsiechen.github.io/Restaurant-Page/) demo.
 
 ## Technologies Used
 - HTML
