@@ -44,7 +44,7 @@
     color: white;
     flex-wrap: wrap;
     gap: 2rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 .navLink:hover {
@@ -52,7 +52,7 @@
     cursor: pointer;
 }
 
-.container, .homeContainer{
+.headContainer, .container, .homeContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
